@@ -1,0 +1,117 @@
+	*, {
+		box-sizing: border-box;
+	}
+	
+	a {
+		text-decoration: none;
+		color: firebrick;
+	}
+
+	a:link {
+    	text-decoration: underline;
+    	color: firebrick;
+	}
+
+	a:visited {
+	    text-decoration: none;
+	    color: firebrick;
+	}
+
+	a:hover {
+	    text-decoration: none;
+	    color: firebrick;
+	}
+
+	a:active {
+	    text-decoration: none;
+	    color: firebrick;
+	}
+
+	.masthead {
+		background: url("http://cdn.pcwallart.com/images/muhammad-ali-2014-wallpaper-4.jpg") no-repeat center;
+		background-size: cover;
+		height: 350px;
+		padding-top: 60px;
+	}
+	
+	.nice-color {
+		color: firebrick;
+		text-align: center;
+		background-color: rgba(0,0,0,0.7);
+	}
+
+	.main-title {
+		font-size: 55px;
+		font-weight: 30;
+		font-family: "Headland One", Arial, serif;
+		color: firebrick;
+	}
+
+	.main-subtitle {
+		font-size: 35px;
+		margin-top: 45px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+		font-weight: 600;
+	}
+	
+	.img-shadow {
+		box-shadow: 1px 1px 15px #ccc;
+	}
+
+	p.caption {
+		font-size: 13px;
+		font-family: monospace, serif;
+		color: firebrick;
+	}
+
+	blockquote {
+	  	display:block;
+	  	background: #fff;
+	  	padding: 15px 20px 0 25px;
+		margin: 0 0 20px;
+		position: relative;
+	  
+	  	/*Font*/
+	  	font-family: Georgia, serif;
+	 	font-size: 16px;
+	  	line-height: 1.2;
+	  	color: #666;
+	  	text-align: justify;
+	  
+	  	/*Borders - (Optional)*/
+	  	border-left: 5px solid firebrick;
+	  
+	  	/*Box Shadow - (Optional)*/
+	  	-moz-box-shadow: 2px 2px 15px #ccc;
+	  	-webkit-box-shadow: 2px 2px 15px #ccc;
+	  	box-shadow: 2px 2px 15px #ccc;
+	}		
+
+	blockquote::before{
+  
+  		/*Font*/
+  		font-family: Georgia, serif;
+  		font-size: 60px;
+  		font-weight: bold;
+  		color: firebrick;
+  
+ 		 /*Positioning*/
+  		position: absolute;
+  		left: 10px;
+  		top:5px;
+	}
+
+	blockquote::after{
+  		/*Reset to make sure*/
+  		content: "";
+	}
+
+	strong {
+		color: firebrick;
+	}
+
+	.btn {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		margin-top: 1rem;
+	}
